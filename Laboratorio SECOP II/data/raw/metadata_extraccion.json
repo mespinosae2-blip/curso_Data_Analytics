@@ -1,0 +1,11 @@
+{
+  "equipo": "G05",
+  "expediente": "C",
+  "dataset": "SECOP II - Contratos Electrónicos",
+  "dataset_id": "jbjy-vk9h",
+  "filtro": "fecha_de_firma >= '2024-01-01T00:00:00' AND fecha_de_firma < '2026-01-01T00:00:00' AND departamento = 'Cundinamarca'",
+  "fecha_extraccion_utc": "2026-09-21T03:10:17+00:00",
+  "registros": 101475,
+  "descarga_paginada": true,
+  "nota": "El andamiaje traía MAX_FILAS = 50.000, que habría truncado el 49,3 % del recorte. Se elevó el límite y se paginó con $offset, conservando sin modificación la vigencia y el territorio del caso."
+}
